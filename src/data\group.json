@@ -1,0 +1,397 @@
+[
+    {
+        "id": "G1",
+        "capacity": 67,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G2",
+        "capacity": 45,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G3",
+        "capacity": 119,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G4",
+        "capacity": 49,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G5",
+        "capacity": 50,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G6",
+        "capacity": 87,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G7",
+        "capacity": 19,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G8",
+        "capacity": 105,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G9",
+        "capacity": 105,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G10",
+        "capacity": 37,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G11",
+        "capacity": 21,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G12",
+        "capacity": 82,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G13",
+        "capacity": 27,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G14",
+        "capacity": 41,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G15",
+        "capacity": 76,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G16",
+        "capacity": 91,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G17",
+        "capacity": 44,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G18",
+        "capacity": 100,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G19",
+        "capacity": 46,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G20",
+        "capacity": 109,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G21",
+        "capacity": 85,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G22",
+        "capacity": 82,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G23",
+        "capacity": 116,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G24",
+        "capacity": 91,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G25",
+        "capacity": 32,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G26",
+        "capacity": 88,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G27",
+        "capacity": 66,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G28",
+        "capacity": 56,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G29",
+        "capacity": 103,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G30",
+        "capacity": 24,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G31",
+        "capacity": 41,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G32",
+        "capacity": 73,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G33",
+        "capacity": 20,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G34",
+        "capacity": 109,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G35",
+        "capacity": 67,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G36",
+        "capacity": 51,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G37",
+        "capacity": 12,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G38",
+        "capacity": 113,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G39",
+        "capacity": 26,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G40",
+        "capacity": 112,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G41",
+        "capacity": 12,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G42",
+        "capacity": 117,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G43",
+        "capacity": 103,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G44",
+        "capacity": 71,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G45",
+        "capacity": 48,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G46",
+        "capacity": 25,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G47",
+        "capacity": 82,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G48",
+        "capacity": 118,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G49",
+        "capacity": 19,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G50",
+        "capacity": 49,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G51",
+        "capacity": 64,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G52",
+        "capacity": 83,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G53",
+        "capacity": 69,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G54",
+        "capacity": 75,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G55",
+        "capacity": 59,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G56",
+        "capacity": 94,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G57",
+        "capacity": 16,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G58",
+        "capacity": 120,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G59",
+        "capacity": 24,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G60",
+        "capacity": 99,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G61",
+        "capacity": 29,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G62",
+        "capacity": 38,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G63",
+        "capacity": 97,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G64",
+        "capacity": 53,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G65",
+        "capacity": 21,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G66",
+        "capacity": 101,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G67",
+        "capacity": 85,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G68",
+        "capacity": 18,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G69",
+        "capacity": 16,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G70",
+        "capacity": 41,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G71",
+        "capacity": 21,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G72",
+        "capacity": 69,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G73",
+        "capacity": 82,
+        "discipline_quantity": 4
+    },
+    {
+        "id": "G74",
+        "capacity": 11,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G75",
+        "capacity": 73,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G76",
+        "capacity": 110,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G77",
+        "capacity": 90,
+        "discipline_quantity": 3
+    },
+    {
+        "id": "G78",
+        "capacity": 64,
+        "discipline_quantity": 5
+    },
+    {
+        "id": "G79",
+        "capacity": 48,
+        "discipline_quantity": 4
+    }
+]
