@@ -1,12 +1,6 @@
 import json
 import random
 
-# Group A (Year 1 Computer Science)
-#     │
-#     ├── Intro to Math
-#     ├── Intro to Programming
-#     └── Computer Systems
-
 student_quantity = 5000
 professor_quantity = 300
 room_quantity = 50
@@ -25,7 +19,8 @@ def generate_professors():
         professor = {
             'id': "P" + str(i),
             'capacity': random.randint(1, 7),
-            'used_capacity': 0
+            'used_capacity': 0,
+            'not_available_slots': []
         }
         professors.append(professor)
     professor_json_str = json.dumps(professors, indent=4)
@@ -46,7 +41,7 @@ def get_professor():
     professor = random.choice(available_professors)
 
     professor['used_capacity'] += 1
-    #add preference time for teacher
+    # add preference time for teacher
     professor_json_str = json.dumps(professors, indent=4)
 
     with open("../data/professor.json", "w") as f:
@@ -59,30 +54,30 @@ def generate_rooms():
     for x in range(room_quantity):
         random_capacity = random.randint(5, 25)
 
-
+        room_id = "R" + str(x)
         room = {
-            'id': "R" + str(x),
+            'id': room_id,
             'capacity': random_capacity,
             "time_slots": [
                 {
                     "day": "Monday",
-                    "times": get_time_slot("MON")
+                    "times": get_time_slot("MON", random_capacity, room_id)
                 },
                 {
                     "day": "Tuesday",
-                    "times": get_time_slot("TUE")
+                    "times": get_time_slot("TUE", random_capacity, room_id)
                 },
                 {
                     "day": "Wednesday",
-                    "times": get_time_slot("WED")
+                    "times": get_time_slot("WED", random_capacity, room_id)
                 },
                 {
                     "day": "Thursday",
-                    "times": get_time_slot("THUR")
+                    "times": get_time_slot("THUR", random_capacity, room_id)
                 },
                 {
                     "day": "Friday",
-                    "times": get_time_slot("FRI")
+                    "times": get_time_slot("FRI", random_capacity, room_id)
                 }
             ]
         }
@@ -93,26 +88,30 @@ def generate_rooms():
         f.write(room_json_str)
 
 
-def get_time_slot(weekday: str) -> list[dict[str, str | bool]]:
-    available_time = [
-        {"id": weekday + "-" + str(1), "start": "07:00", "end": "10:00", "is_available": True},
-        {"id": weekday + "-" + str(2), "start": "10:00", "end": "13:00", "is_available": True},
-        {"id": weekday + "-" + str(3), "start": "13:00", "end": "16:00", "is_available": True},
-        {"id": weekday + "-" + str(4), "start": "16:00", "end": "19:00", "is_available": True}
+def get_time_slot(weekday: str, room_capacity: int, room: str) -> list[dict[str, str | bool | int]]:
+    return [
+        {"id": weekday + "-" + str(1), "start": "07:00", "end": "10:00", "is_available": True,
+         "capacity": room_capacity, "room": room},
+        {"id": weekday + "-" + str(2), "start": "10:00", "end": "13:00", "is_available": True,
+         "capacity": room_capacity, "room": room},
+        {"id": weekday + "-" + str(3), "start": "13:00", "end": "16:00", "is_available": True,
+         "capacity": room_capacity, "room": room},
+        {"id": weekday + "-" + str(4), "start": "16:00", "end": "19:00", "is_available": True,
+         "capacity": room_capacity, "room": room}
     ]
-    return available_time
 
-
-def create_discipline():
+def create_discipline(capacity: int):
     global discipline_id
-    d_capacity = random.randint(2, 3)
+    discipline_quantity = random.randint(2, 3)
     disciplines = []
 
-    for x in range(d_capacity):
+    for x in range(discipline_quantity):
         professor = get_professor()
         discipline = {
             'id': "D" + str(discipline_id),
-            'professor': professor
+            'professor': professor,
+            'capacity': capacity,
+            'slot': None
         }
         discipline_id += 1
         disciplines.append(discipline)
@@ -126,7 +125,7 @@ def generate_group():
         student_random_capacity = random.randint(5, 20)
         all_group_capacity += student_random_capacity
 
-        discipline = create_discipline()
+        discipline = create_discipline(student_random_capacity)
         group = {
             'id': "G" + str(i),
             'capacity': student_random_capacity,
@@ -155,7 +154,7 @@ def generate_group():
         f.write(student_json_str)
 
 
-# generating dataset with 350 disciplines as slots quantity
+
 equal = True
 while equal:
     generate_professors()
