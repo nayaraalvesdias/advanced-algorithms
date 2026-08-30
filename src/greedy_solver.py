@@ -9,7 +9,7 @@ with open("../data/room.json", "r") as file:
 with open("../data/professor.json", "r") as file:
     professors = json.load(file)
 
-# filtering just disciplines
+# mapping disciplines
 disciplines = [
     discipline
     for group in groups
@@ -18,7 +18,7 @@ disciplines = [
 
 disciplines.sort(key=lambda discipline: discipline["capacity"], reverse=True)
 
-# filtering just slots
+# mapping slots
 slots = [
     slot
     for room in rooms
@@ -31,24 +31,34 @@ slots.sort(key=lambda time_slot: time_slot["capacity"], reverse=True)
 print("disciplines " + str(len(disciplines)))
 print("rooms " + str(len(slots)))
 
+professor_availabilities = []
 professor_conflicts = []
 disciplines_not_allocated = []
 slots_not_allocated = []
 scheduling = []
 
+
 def interval_partitioning():
+    filtered_disciplines = []
+
+    # filter(
+    #     lambda item: slot["is_available"],
+    #     slots
+    # )
+
     for slot in slots:
-        print("starting")
-
-        # filtered_disciplines = list(
-        #     filter(lambda disc: disc["capacity"] < slot["capacity"], disciplines)
-        # )
-        #
-        # print("filtered disciplines " + str(len(filtered_disciplines)))
-
         for discipline in disciplines:
             if discipline["capacity"] <= slot["capacity"] and discipline["slot"] is None:
-                if slot["id"] in discipline["professor"]["not_available_slots"]:
+                professor_id = discipline["professor"]["id"]
+                professor_availability = next(
+                    filter(
+                        lambda availability: availability["id"] == professor_id,
+                        professor_availabilities
+                    ),
+                    None
+                )
+
+                if professor_availability is not None and slot["id"] in professor_availability["not_available_slots"]:
                     professor_conflicts.append(discipline)
                 else:
                     scheduling.append({
@@ -57,15 +67,23 @@ def interval_partitioning():
                     })
                     slot["is_available"] = False
                     discipline["slot"] = slot
-                    discipline["professor"]["not_available_slots"].append(slot["id"])
+
+                    if professor_availability is not None:
+                        professor_availability['not_available_slots'].append(slot["id"])
+                    else:
+                        professor_availabilities.append({
+                            'id': discipline["professor"]['id'],
+                            'not_available_slots': [slot["id"]]
+                        })
+
                 break
 
         if slot["is_available"]:
             slots_not_allocated.append(slot)
 
         filtered_disciplines = list(
-                filter(lambda disc: disc["slot"] is None, disciplines)
-            )
+            filter(lambda disc: disc["slot"] is None, disciplines)
+        )
 
     print("discipline_not_allocated " + str(len(filtered_disciplines)))
     disc_not_allocated_json_str = json.dumps(filtered_disciplines, indent=4)
@@ -81,6 +99,12 @@ def interval_partitioning():
     professor_conflicts_json_str = json.dumps(professor_conflicts, indent=4)
     with open("../data/professor_conflicts.json", "w") as f:
         f.write(professor_conflicts_json_str)
+
+    print("professor_availabilities " + str(len(professor_availabilities)))
+    professor_availabilities_json_str = json.dumps(professor_availabilities, indent=4)
+    with open("../data/professor_availabilities_json_str.json", "w") as f:
+        f.write(professor_availabilities_json_str)
+
     return None
 
 

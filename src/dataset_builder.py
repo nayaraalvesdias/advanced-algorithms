@@ -19,8 +19,7 @@ def generate_professors():
         professor = {
             'id': "P" + str(i),
             'capacity': random.randint(1, 7),
-            'used_capacity': 0,
-            'not_available_slots': []
+            'used_capacity': 0
         }
         professors.append(professor)
     professor_json_str = json.dumps(professors, indent=4)
@@ -49,10 +48,9 @@ def get_professor():
 
     return professor
 
-
 def generate_rooms():
     for x in range(room_quantity):
-        random_capacity = random.randint(5, 25)
+        random_capacity = random.randint(10, 25)
 
         room_id = "R" + str(x)
         room = {
@@ -87,7 +85,6 @@ def generate_rooms():
     with open("../data/room.json", "w") as f:
         f.write(room_json_str)
 
-
 def get_time_slot(weekday: str, room_capacity: int, room: str) -> list[dict[str, str | bool | int]]:
     return [
         {"id": weekday + "-" + str(1), "start": "07:00", "end": "10:00", "is_available": True,
@@ -116,7 +113,6 @@ def create_discipline(capacity: int):
         discipline_id += 1
         disciplines.append(discipline)
     return disciplines
-
 
 def generate_group():
     i = 1
@@ -152,8 +148,6 @@ def generate_group():
 
     with open("../data/student.json", "w") as f:
         f.write(student_json_str)
-
-
 
 equal = True
 while equal:

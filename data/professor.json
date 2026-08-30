@@ -2,1801 +2,1501 @@
     {
         "id": "P0",
         "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "used_capacity": 4
     },
     {
         "id": "P1",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 2
     },
     {
         "id": "P2",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P3",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P4",
         "capacity": 4,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "used_capacity": 4
     },
     {
         "id": "P5",
-        "capacity": 5,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P6",
-        "capacity": 6,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P7",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 4
     },
     {
         "id": "P8",
-        "capacity": 7,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P9",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 4
     },
     {
         "id": "P10",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 4
     },
     {
         "id": "P11",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P12",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 3
     },
     {
         "id": "P13",
-        "capacity": 4,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P14",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P15",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 3
     },
     {
         "id": "P16",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 3
     },
     {
         "id": "P17",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P18",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P19",
-        "capacity": 4,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P20",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P21",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 4
     },
     {
         "id": "P22",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 3
     },
     {
         "id": "P23",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P24",
-        "capacity": 6,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P25",
-        "capacity": 7,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P26",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P27",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P28",
-        "capacity": 4,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P29",
-        "capacity": 7,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 1
     },
     {
         "id": "P30",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P31",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P32",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P33",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P34",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P35",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 3
     },
     {
         "id": "P36",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P37",
         "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "used_capacity": 5
     },
     {
         "id": "P38",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P39",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P40",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P41",
-        "capacity": 6,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 4
     },
     {
         "id": "P42",
-        "capacity": 6,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P43",
         "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "used_capacity": 5
     },
     {
         "id": "P44",
-        "capacity": 5,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P45",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 4
     },
     {
         "id": "P46",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 5
     },
     {
         "id": "P47",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P48",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 3
     },
     {
         "id": "P49",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P50",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P51",
-        "capacity": 5,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P52",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 4
     },
     {
         "id": "P53",
-        "capacity": 3,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 4
     },
     {
         "id": "P54",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P55",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P56",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 2
     },
     {
         "id": "P57",
-        "capacity": 7,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P58",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P59",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P60",
         "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "used_capacity": 4
     },
     {
         "id": "P61",
-        "capacity": 5,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P62",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P63",
         "capacity": 5,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "used_capacity": 3
     },
     {
         "id": "P64",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P65",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P66",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P67",
         "capacity": 6,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "used_capacity": 6
     },
     {
         "id": "P68",
-        "capacity": 7,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P69",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P70",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P71",
-        "capacity": 6,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 2
     },
     {
         "id": "P72",
-        "capacity": 7,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 0
     },
     {
         "id": "P73",
-        "capacity": 5,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P74",
         "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "used_capacity": 5
     },
     {
         "id": "P75",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P76",
-        "capacity": 3,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 3
     },
     {
         "id": "P77",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P78",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P79",
         "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "used_capacity": 2
     },
     {
         "id": "P80",
         "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "used_capacity": 5
     },
     {
         "id": "P81",
-        "capacity": 4,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P82",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P83",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P84",
         "capacity": 6,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "used_capacity": 5
     },
     {
         "id": "P85",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P86",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 5
     },
     {
         "id": "P87",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P88",
-        "capacity": 7,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P89",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P90",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P91",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P92",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 2
     },
     {
         "id": "P93",
-        "capacity": 6,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 1
     },
     {
         "id": "P94",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P95",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P96",
-        "capacity": 4,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P97",
-        "capacity": 5,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P98",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P99",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P100",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P101",
         "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "used_capacity": 6
     },
     {
         "id": "P102",
-        "capacity": 3,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P103",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P104",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P105",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P106",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P107",
-        "capacity": 6,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P108",
-        "capacity": 6,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P109",
-        "capacity": 7,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P110",
         "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "used_capacity": 3
     },
     {
         "id": "P111",
-        "capacity": 6,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P112",
-        "capacity": 5,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 3
     },
     {
         "id": "P113",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P114",
-        "capacity": 6,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P115",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P116",
-        "capacity": 5,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P117",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P118",
         "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "used_capacity": 3
     },
     {
         "id": "P119",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P120",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P121",
-        "capacity": 4,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P122",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 5
     },
     {
         "id": "P123",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P124",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 3
     },
     {
         "id": "P125",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P126",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P127",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P128",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 4
     },
     {
         "id": "P129",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 2
     },
     {
         "id": "P130",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P131",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P132",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 1
     },
     {
         "id": "P133",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P134",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P135",
         "capacity": 6,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "used_capacity": 3
     },
     {
         "id": "P136",
-        "capacity": 5,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P137",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P138",
         "capacity": 6,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "used_capacity": 4
     },
     {
         "id": "P139",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P140",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P141",
-        "capacity": 5,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P142",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P143",
-        "capacity": 6,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P144",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P145",
         "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "used_capacity": 4
     },
     {
         "id": "P146",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P147",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P148",
-        "capacity": 5,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P149",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 2
     },
     {
         "id": "P150",
-        "capacity": 6,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P151",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P152",
-        "capacity": 7,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P153",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P154",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P155",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 5
     },
     {
         "id": "P156",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P157",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P158",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 3
     },
     {
         "id": "P159",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P160",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P161",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P162",
-        "capacity": 6,
-        "used_capacity": 0,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 5
     },
     {
         "id": "P163",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P164",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P165",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 1
     },
     {
         "id": "P166",
-        "capacity": 6,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 1
     },
     {
         "id": "P167",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P168",
-        "capacity": 4,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P169",
-        "capacity": 7,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P170",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 3
     },
     {
         "id": "P171",
         "capacity": 7,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "used_capacity": 3
     },
     {
         "id": "P172",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 4
     },
     {
         "id": "P173",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 2
     },
     {
         "id": "P174",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P175",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P176",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 0
     },
     {
         "id": "P177",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P178",
-        "capacity": 6,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 2
     },
     {
         "id": "P179",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P180",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 3
     },
     {
         "id": "P181",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P182",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P183",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P184",
-        "capacity": 4,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P185",
-        "capacity": 6,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P186",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P187",
-        "capacity": 6,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P188",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P189",
-        "capacity": 4,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 4
     },
     {
         "id": "P190",
-        "capacity": 7,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 2
     },
     {
         "id": "P191",
         "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "used_capacity": 4
     },
     {
         "id": "P192",
-        "capacity": 3,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P193",
         "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "used_capacity": 2
     },
     {
         "id": "P194",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P195",
         "capacity": 2,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 2
     },
     {
         "id": "P196",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P197",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P198",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 3
     },
     {
         "id": "P199",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 2
     },
     {
         "id": "P200",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P201",
-        "capacity": 7,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P202",
         "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "used_capacity": 2
     },
     {
         "id": "P203",
-        "capacity": 6,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P204",
-        "capacity": 7,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P205",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P206",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P207",
         "capacity": 4,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P208",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 4
     },
     {
         "id": "P209",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P210",
-        "capacity": 5,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P211",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 3
     },
     {
         "id": "P212",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P213",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P214",
-        "capacity": 6,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 3
     },
     {
         "id": "P215",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P216",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P217",
-        "capacity": 6,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P218",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 4
     },
     {
         "id": "P219",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P220",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P221",
-        "capacity": 5,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P222",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P223",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P224",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P225",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P226",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P227",
-        "capacity": 5,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P228",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P229",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 2
     },
     {
         "id": "P230",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 1
     },
     {
         "id": "P231",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P232",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P233",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P234",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P235",
-        "capacity": 7,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P236",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P237",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 7
     },
     {
         "id": "P238",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 5
     },
     {
         "id": "P239",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P240",
         "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "used_capacity": 2
     },
     {
         "id": "P241",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P242",
-        "capacity": 7,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P243",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P244",
         "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "used_capacity": 5
     },
     {
         "id": "P245",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P246",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 4
     },
     {
         "id": "P247",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P248",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P249",
-        "capacity": 5,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P250",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 3
     },
     {
         "id": "P251",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 3
     },
     {
         "id": "P252",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P253",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P254",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P255",
         "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "used_capacity": 7
     },
     {
         "id": "P256",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P257",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P258",
-        "capacity": 7,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 3
     },
     {
         "id": "P259",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 2
     },
     {
         "id": "P260",
-        "capacity": 7,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P261",
         "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "used_capacity": 3
     },
     {
         "id": "P262",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 5
     },
     {
         "id": "P263",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 3
     },
     {
         "id": "P264",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P265",
-        "capacity": 4,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P266",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P267",
-        "capacity": 7,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P268",
-        "capacity": 4,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 6
     },
     {
         "id": "P269",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P270",
         "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "used_capacity": 2
     },
     {
         "id": "P271",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 3
     },
     {
         "id": "P272",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 4
     },
     {
         "id": "P273",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P274",
-        "capacity": 7,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P275",
-        "capacity": 5,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P276",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P277",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P278",
-        "capacity": 3,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P279",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 7,
+        "used_capacity": 6
     },
     {
         "id": "P280",
         "capacity": 7,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "used_capacity": 5
     },
     {
         "id": "P281",
         "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "used_capacity": 5
     },
     {
         "id": "P282",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P283",
         "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "used_capacity": 3
     },
     {
         "id": "P284",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 4
     },
     {
         "id": "P285",
-        "capacity": 7,
-        "used_capacity": 7,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P286",
         "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "used_capacity": 2
     },
     {
         "id": "P287",
-        "capacity": 6,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 3,
+        "used_capacity": 3
     },
     {
         "id": "P288",
         "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "used_capacity": 1
     },
     {
         "id": "P289",
-        "capacity": 2,
-        "used_capacity": 2,
-        "not_available_slots": []
+        "capacity": 5,
+        "used_capacity": 5
     },
     {
         "id": "P290",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P291",
-        "capacity": 6,
-        "used_capacity": 6,
-        "not_available_slots": []
+        "capacity": 4,
+        "used_capacity": 4
     },
     {
         "id": "P292",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P293",
-        "capacity": 5,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P294",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 5
     },
     {
         "id": "P295",
-        "capacity": 7,
-        "used_capacity": 5,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P296",
-        "capacity": 1,
-        "used_capacity": 1,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 4
     },
     {
         "id": "P297",
-        "capacity": 7,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 2,
+        "used_capacity": 2
     },
     {
         "id": "P298",
-        "capacity": 4,
-        "used_capacity": 4,
-        "not_available_slots": []
+        "capacity": 1,
+        "used_capacity": 1
     },
     {
         "id": "P299",
-        "capacity": 3,
-        "used_capacity": 3,
-        "not_available_slots": []
+        "capacity": 6,
+        "used_capacity": 2
     }
 ]
