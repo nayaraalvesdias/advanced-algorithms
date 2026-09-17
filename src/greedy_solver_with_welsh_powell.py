@@ -1,5 +1,7 @@
 import json
 
+### I need to refactor this
+
 from src.graph_engine import welsh_powell
 
 with open("../data/group.json", "r") as file:
@@ -7,9 +9,6 @@ with open("../data/group.json", "r") as file:
 
 with open("../data/room.json", "r") as file:
     rooms = json.load(file)
-
-with open("../data/professor.json", "r") as file:
-    professors = json.load(file)
 
 disciplines_weights = welsh_powell()
 
@@ -23,7 +22,7 @@ disciplines = [
     for discipline in group["disciplines"]
 ]
 
-disciplines.sort(key=lambda discipline: (discipline["capacity"],discipline["weight"]), reverse=True)
+disciplines.sort(key=lambda discipline: (discipline["capacity"], discipline["weight"]), reverse=True)
 
 # mapping slots
 slots = [
@@ -47,11 +46,6 @@ scheduling = []
 
 def interval_partitioning():
     filtered_disciplines = []
-
-    # filter(
-    #     lambda item: slot["is_available"],
-    #     slots
-    # )
 
     for slot in slots:
         for discipline in disciplines:

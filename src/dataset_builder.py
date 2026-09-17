@@ -18,14 +18,13 @@ def generate_professors():
     for i in range(professor_quantity):
         professor = {
             'id': "P" + str(i),
-            'capacity': random.randint(1, 7),
+            'capacity': random.randint(1, 6),
             'used_capacity': 0
         }
         professors.append(professor)
     professor_json_str = json.dumps(professors, indent=4)
     with open("../data/professor.json", "w") as f:
         f.write(professor_json_str)
-
 
 def get_professor():
     available_professors = [
@@ -50,7 +49,7 @@ def get_professor():
 
 def generate_rooms():
     for x in range(room_quantity):
-        random_capacity = random.randint(10, 25)
+        random_capacity = random.randint(15, 30)
 
         room_id = "R" + str(x)
         room = {

@@ -46,6 +46,7 @@ def welsh_powell():
     vertices = set(graph.keys())
 
     for neighbors in graph.values():
+        # dictionary update is add :s
         vertices.update(neighbors)
 
     # Sort by degree (highest number of conflicts first)

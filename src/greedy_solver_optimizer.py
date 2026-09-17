@@ -37,14 +37,10 @@ disciplines_not_allocated = []
 slots_not_allocated = []
 scheduling = []
 
+filtered_disciplines = []
 
+counter = 0
 def interval_partitioning():
-    filtered_disciplines = []
-
-    # filter(
-    #     lambda item: slot["is_available"],
-    #     slots
-    # )
 
     for slot in slots:
         for discipline in disciplines:
@@ -81,33 +77,51 @@ def interval_partitioning():
         if slot["is_available"]:
             slots_not_allocated.append(slot)
 
-        filtered_disciplines = list(
-            filter(lambda disc: disc["slot"] is None, disciplines)
-        )
+    filtered_disciplines = list(
+        filter(lambda disc: disc["slot"] is None, disciplines)
+    )
 
     print("discipline_not_allocated " + str(len(filtered_disciplines)))
     disc_not_allocated_json_str = json.dumps(filtered_disciplines, indent=4)
     with open("../data/discpline_not_allocated_json_str.json", "w") as f:
         f.write(disc_not_allocated_json_str)
 
-    print("slots_not_allocated " + str(len(slots_not_allocated)))
-    slots_not_allocated_json_str = json.dumps(slots_not_allocated, indent=4)
-    with open("../data/slots_not_allocated_json_str.json", "w") as f:
-        f.write(slots_not_allocated_json_str)
+    global counter
+    slots_available = [
+        item for item in slots
+        if item["is_available"]
+    ]
 
-    print("conflicts_quantity " + str(len(professor_conflicts)))
-    professor_conflicts_json_str = json.dumps(professor_conflicts, indent=4)
-    with open("../data/professor_conflicts.json", "w") as f:
-        f.write(professor_conflicts_json_str)
+    print("slots_available:", len(slots_available))
+    print("counter:", counter)
+    print("condition 1:", len(slots_available) > 1)
+    print("condition 2:", counter < 10)
 
-    print("professor_availabilities " + str(len(professor_availabilities)))
-    professor_availabilities_json_str = json.dumps(professor_availabilities, indent=4)
-    with open("../data/professor_availabilities_json_str.json", "w") as f:
-        f.write(professor_availabilities_json_str)
+    if len(slots_available) > 1 and counter < 10:
+        print("interval_partitioning " + str(counter))
+        counter += 1
+        interval_partitioning()
 
     return None
 
+
 interval_partitioning()
+
+print("slots_not_allocated " + str(len(slots_not_allocated)))
+slots_not_allocated_json_str = json.dumps(slots_not_allocated, indent=4)
+with open("../data/slots_not_allocated_json_str.json", "w") as f:
+    f.write(slots_not_allocated_json_str)
+
+print("conflicts_quantity " + str(len(professor_conflicts)))
+professor_conflicts_json_str = json.dumps(professor_conflicts, indent=4)
+with open("../data/professor_conflicts.json", "w") as f:
+    f.write(professor_conflicts_json_str)
+
+print("professor_availabilities " + str(len(professor_availabilities)))
+professor_availabilities_json_str = json.dumps(professor_availabilities, indent=4)
+with open("../data/professor_availabilities_json_str.json", "w") as f:
+    f.write(professor_availabilities_json_str)
+
 scheduling_json_str = json.dumps(scheduling, indent=4)
 with open("../data/match_discipline_slot.json", "w") as f:
     f.write(scheduling_json_str)
